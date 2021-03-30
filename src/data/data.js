@@ -1,4 +1,4 @@
-import { v4 as uuidv4, v4 } from "uuid";
+import { uuid } from "uuidv4";
 
 // Hero Data
 export const heroData = {
@@ -19,9 +19,9 @@ export const aboutData = {
 
 // Projects Data
 export const projectData = [
-  { id: v4(), img: "", title: "", info: "", info2: "", url: "", repo: "" },
-  { id: v4(), img: "", title: "", info: "", info2: "", url: "", repo: "" },
-  { id: v4(), img: "", title: "", info: "", info2: "", url: "", repo: "" },
+  { id: uuid(), img: "", title: "", info: "", info2: "", url: "", repo: "" },
+  { id: uuid(), img: "", title: "", info: "", info2: "", url: "", repo: "" },
+  { id: uuid(), img: "", title: "", info: "", info2: "", url: "", repo: "" },
 ];
 
 // Contact Data
@@ -35,17 +35,17 @@ export const contactData = {
 export const footerData = {
   networks: [
     {
-      id: v4(),
+      id: uuid(),
       name: "codepen",
       url: "",
     },
     {
-      id: v4(),
+      id: uuid(),
       name: "linkedin",
       url: "",
     },
     {
-      id: v4(),
+      id: uuid(),
       name: "github",
       url: "",
     },
