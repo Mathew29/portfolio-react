@@ -51,3 +51,7 @@ export const footerData = {
     },
   ],
 };
+
+export const githubButtons = {
+  isEnabled: true,
+};
