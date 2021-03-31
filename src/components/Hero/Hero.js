@@ -19,7 +19,11 @@ const Header = () => {
         <br />
         {subtitle}
       </h1>
-      <p className={styles.Cta}>paragrah</p>
+      <p>
+        <span>
+          <a href="/">{cta || "Know More"}</a>
+        </span>
+      </p>
     </section>
   );
 };
