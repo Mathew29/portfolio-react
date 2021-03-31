@@ -1,5 +1,6 @@
 import React, { useContext, useState, useEffect } from "react";
 
+import styles from "./Hero.css";
 import PortfolioContext from "../../context/context";
 
 const Header = () => {
@@ -10,7 +11,11 @@ const Header = () => {
   console.log("name ", name);
   console.log("subtitle ", subtitle);
   console.log("cta ", cta);
-  return <div></div>;
+  return (
+  <section className={styles.Container}>
+    <h1 className={styles.Title}></h1>
+    <p className={styles.Cta}></p>
+  </section>;)
 };
 
 export default Header;
