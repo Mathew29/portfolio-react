@@ -1,0 +1,57 @@
+.Container {
+  min-height: 100vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  border-bottom: 0px;
+  background: var(--white-color);
+  font-weight: 400;
+  color: var(--dark-blue-text);
+  padding: 0rem 5.6rem;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.Title {
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+  text-align: left;
+}
+
+.MainTextColor {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 320px) {
+  .Title {
+    font-size: 2.8rem;
+  }
+}
+
+@media screen and (min-width: 321px) {
+  .Title {
+    font-size: 3.5rem;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (orientation: portrait) and (min-width: 601px) {
+  .Title {
+    font-size: 3.6rem;
+    text-align: center;
+  }
+}
+@media screen and (orientation: landscape) and (min-width: 901px) {
+  .Title {
+    font-size: 4rem;
+  }
+}
+@media screen and (min-width: 1201px) {
+  .Title {
+    font-size: 5.6rem;
+  }
+}
