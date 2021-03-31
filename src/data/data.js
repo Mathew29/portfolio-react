@@ -2,10 +2,10 @@ import { uuid } from "uuidv4";
 
 // Hero Data
 export const heroData = {
-  title: "Web Developer",
+  title: "",
   name: "Mathew Akre",
-  subtitle: "",
-  cta: "",
+  subtitle: "I'm the Web Developer",
+  cta: "Know More",
 };
 
 // About Data
