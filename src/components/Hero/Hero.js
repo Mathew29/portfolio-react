@@ -13,17 +13,20 @@ const Header = () => {
   console.log("cta ", cta);
   return (
     <section className={styles.Container}>
-      <h1 className={styles.Title}>
-        {title || "Hi, my name is"}{" "}
-        <span className={styles.MainTextColor}>{name}</span>
-        <br />
-        {subtitle}
-      </h1>
-      <p>
-        <span>
-          <a href="/">{cta || "Know More"}</a>
-        </span>
-      </p>
+      <div className={styles.Wrapper}>
+        <h1 className={styles.Title}>
+          {title || "Hi, my name is"}{" "}
+          <span className={styles.MainTextColor}>{name}</span>
+          <br />
+          {subtitle}
+        </h1>
+
+        <div className={styles.ButtonWrapper}>
+          <a className={styles.Button} href="/">
+            {cta || "Know More"}
+          </a>
+        </div>
+      </div>
     </section>
   );
 };
