@@ -1,5 +1,5 @@
 import { uuid } from "uuidv4";
-
+import profileImage from "../assets/images/Mathew0267-2000fpo JPEG.jpg";
 // Hero Data
 export const heroData = {
   title: "",
@@ -10,11 +10,14 @@ export const heroData = {
 
 // About Data
 export const aboutData = {
-  img: "",
-  paragraphOne: "",
-  paragraphTwo: "",
-  paragraphThree: "",
-  resume: "",
+  img: profileImage,
+  paragraphOne:
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cupiditate deserunt vero fugiat nam qui necessitatibus sapiente ratione illo eos, voluptatem deleniti rerum tempora animi ipsam consequuntur totam quae earum?",
+  paragraphTwo:
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias tenetur adipisci maxime magnam at quas impedit voluptate quos libero ipsa.",
+  paragraphThree:
+    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi minima, qui quaerat impedit minus totam iure laudantium voluptatum tempore? Repellendus perspiciatis neque minus est, similique dolorum eaque nam totam deleniti! Modi vel voluptatibus architecto soluta, atque minus totam eaque voluptas?",
+  resume: "Resume",
 };
 
 // Projects Data
