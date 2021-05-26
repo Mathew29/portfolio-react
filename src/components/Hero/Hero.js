@@ -1,7 +1,7 @@
 import React, { useContext, useState, useEffect } from "react";
 
 import PortfolioContext from "../../context/context";
-import styles from "./Hero.module.css";
+import styles from "./Hero.scss";
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);

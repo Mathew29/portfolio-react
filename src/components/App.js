@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Hero from "./Hero/Hero";
 import About from "./About/About";
 
-import "./App.css";
+import "./App.scss";
 import { PortfolioProvider } from "../context/context";
 
 import {
