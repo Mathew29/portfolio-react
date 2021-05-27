@@ -12,17 +12,17 @@ const Header = () => {
   console.log("subtitle ", subtitle);
   console.log("cta ", cta);
   return (
-    <section className={styles.Container}>
-      <div className={styles.Wrapper}>
-        <h1 className={styles.Title}>
+    <section className="{hero-container">
+      <div className="hero-wrapper">
+        <h1 className="title">
           {title || "Hi, my name is"}{" "}
-          <span className={styles.MainTextColor}>{name}</span>
+          <span className="main-text-color">{name}</span>
           <br />
           {subtitle}
         </h1>
 
-        <div className={styles.ButtonWrapper}>
-          <a className={styles.Button} href="/">
+        <div className="button-wrapper">
+          <a className="button" href="/">
             {cta || "Know More"}
           </a>
         </div>
